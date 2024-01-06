@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="zh"><head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>实用工具导航</title>
+    <link rel="icon" type="image/x-icon" id="favicon" href="assets/ico/愤怒.svg" />
+    <script>
+        // 随机选择一个图标
+        function getRandomIcon() {
+            var icons = [
+                "闭嘴.svg",
+                "不开心.svg",
+                "大牙.svg",
+                "发火.svg",
+                "愤怒.svg",
+                "尴尬.svg",
+                "鬼脸.svg",
+                "好吧.svg",
+                "惊喜.svg",
+                "糗大了.svg",
+                "无语.svg",
+                "高兴.svg",
+                "色.svg",
+                "耍帅.svg"
+            ];
+
+            var randomIndex = Math.floor(Math.random() * icons.length);
+            return icons[randomIndex];
+        }
+
+        // 设置随机图标为favicon
+        function setRandomFavicon() {
+            var favicon = document.getElementById('favicon');
+            var randomIcon = getRandomIcon();
+            favicon.href = "assets/ico/" + randomIcon;
+        }
+
+        // 在页面加载时设置随机图标
+        window.addEventListener('load', setRandomFavicon);
+    </script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">LAOGOU</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                      <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">🏠首页</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://space.bilibili.com/3546580869188223">🎬B站</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://www.douyin.com/user/MS4wLjABAAAAc5bumVyx9_Ac4hc-zFOgFuqmeixTCrjtpLYAKs6E5rI">📱抖音</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="https://github.com/YHX2010">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/post-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="post-heading">
+                            <h1>实用工具导航 &nbsp; &nbsp;&nbsp;</h1>
+                            <h2 class="subheading">Some great Tools&nbsp;</h2>
+                            <span class="meta">
+                            Posted by YHX2010 on Jan 6th, 2024.
+                        </span>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Post Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                       <!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <meta charset="UTF-8">
+    <title>合集</title>
+    <style>
+        body {
+            color: #333;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        a {
+            color: #337ab7;
+            text-decoration: none;
+        }
+	 .code-container {
+            border: 2px solid #007bff;
+            background-color: #f9f9f9;
+            padding: 20px;
+            margin: 10px;
+            overflow-y: scroll; /* 允许竖直滚动 */
+            height: 300px; /* 设置高度，控制显示三四行 */
+            font-family: 'Courier New', monospace;
+            line-height: 1.5;
+            position: relative;
+            border-radius: 10px;
+        }
+
+        .code-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .copy-button {
+            background-color: #007bff;
+            border: none;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+	  
+	<div class="code-container">
+        <div class="code-title">Code</div>
+        <pre id="code">
+        <!-- 这里插入代码内容 -->
+        </pre>
+        <button class="copy-button" onclick="copyCode()">复制代码</button>
+    </div>
+
+    <script>
+        function copyCode() {
+            var code = document.getElementById("code").innerText;
+            var textarea = document.createElement("textarea");
+            textarea.value = code;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand("copy");
+            document.body.removeChild(textarea);
+            alert("代码已复制到剪贴板!");
+        }
+    </script>
+
+    </p>
+	
+	<p><strong>潘多拉·新版/PandoraNext</strong></p>
+    <p>
+        作者：<a href="https://zhile.io" target="_blank">pengzhile(zhile.io)</a><br>
+        优势亮点：无需魔法 国内可用 最新GPTs UI 无限注册<br><br>
+        <a href="https://chat1.zhile.io" target="_blank" style="display: inline-block; color: white; text-decoration: none; background-color: #4CAF50; border: none; padding: 10px 20px; margin: 10px 2px; cursor: pointer; border-radius: 10px; transition: transform .2s;">免费的使用站点1</a>
+	    <a href="https://chat.oaifree.com" target="_blank" style="display: inline-block; color: white; text-decoration: none; background-color: #4CAF50; border: none; padding: 10px 20px; margin: 10px 2px; cursor: pointer; border-radius: 10px; transition: transform .2s;">免费的使用站点2</a>
+        <a href="https://chat-shared3.zhile.io" target="_blank" style="display: inline-block; color: white; text-decoration: none; background-color: #4CAF50; border: none; padding: 10px 20px; margin: 10px 2px; cursor: pointer; border-radius: 10px; transition: transform .2s;">这里是免费的共享站点</a>
+		<div style="display: flex; justify-content: space-between;">
+    <a href="https://zhile.io/2023/12/09/pandoranext-introduction.html" target="_blank" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1.0)'">官方介绍文档</a>
+    <a href="https://docs.pandoranext.com/zh-CN" target="_blank" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1.0)'">官方说明&部署文档</a>
+    <a href="https://chat.openai.com/api/auth/session" target="_blank" style="background-color: #4CAF50; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 12px; transition: transform .2s;" onmouseover="this.style.transform='scale(1.1)'" onmouseout="this.style.transform='scale(1.0)'">获取accesstoken</a>
+</div>
+
+    </p>
+	  <h1><strong>免费无需魔法 GPT-4 Turbo + DALL-E 3 + 超多智能体 网站(Gnomic)</strong></h1>
+<a href="https://gnomic.cn" target="_blank" >点击进入</a>
+
+<br><br>
+    
+    <h1><strong>👊230527-部署个人AI网站</strong></h1>
+	<p>
+    免费容器：
+		<br><br>
+<a href="https://vercel.com" target="_blank" class="button">vercel</a>
+<a href="https://dashboard.render.com" target="_blank" class="button">render</a>
+<a href="https://railway.app" target="_blank" class="button">railway</a>
+<a href="https://dash.zeabur.com" target="_blank" class="button">zeabur</a><br><br>
+		<a href="https://github.com/Harry-zklcdc/go-proxy-bingai" target="_blank">Bing项目(Go Proxy BingAI)</a>
+		<a href="https://github.com/Yidadaa/ChatGPT-Next-Web" target="_blank">ChatGPT项目(ChatGPT Next Web)</a><br><br>
+		以上两个是支持一键部署的开源项目
+		<br><br>
+    <p>
+</a>
+</p>
+</body>
+</html>
+                    
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
